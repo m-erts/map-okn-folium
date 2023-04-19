@@ -15,6 +15,14 @@ https://m-erts.github.io/map-okn-folium/
 2. yaroslavl_boundaries.geojson - OpenStreetMap Overpass API
 3. yaroslavl_buildings.geojson - BBBike OpenStreetMap
 
+## Описание основных методов
+1. Создание grid
+2. Присоединение через sjoin атрибуты одного слоя к другому.
+3. Создание веб-карты с помощью библиотеки folium.
+
+Самое сложное в работе - следить за правильными проекциями.
+В работе получилось всё.
+
 ## 1. Загрузка библиотек
 ```python
 import pandas as pd
